@@ -17,8 +17,8 @@ import time
 pygame.init()
 
 # screen config
-screen_width = 1000
-screen_height = 1000
+screen_width = 800
+screen_height = 800
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Block automat")
 
