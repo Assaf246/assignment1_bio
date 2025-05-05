@@ -3,16 +3,6 @@ import random
 import sys
 import time
 
-
-
-# no wrap- go over the blue buttom: reds top left
-# number- line//2 * col//2 in odd
-# number- in even: line-1//2 col-1//2 NxN N IS EVEN
-
-# wrap- add a way to go over leftovers using wrap arounds: will be the corners
-# number- line//2 * col//2 in odd and even. wrap only affects the red
-
-
 # init pygame
 pygame.init()
 
